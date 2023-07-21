@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    section{
+        @action py-[75px]
+    }
+}
+
